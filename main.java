@@ -12,6 +12,16 @@ public class main {
 		c.nuevovalor=10;
 		
 		System.out.println("el nuevo valor es: "+c.nuevovalor);
+		
+		circulo cir = new circulo();
+		
+		System.out.println("El lado inicial del circulo es: "+cir.id);
+		System.out.println("La circunferencia es: "+cir.circunferencia);
+		System.out.println("El area del circulo es: "+cir.area);
+		cir.nuevovalor=(float) 5.26;
+		System.out.println("El nuevo valor es: "+cir.nuevovalor);
+		
+		
 
 	}
 
